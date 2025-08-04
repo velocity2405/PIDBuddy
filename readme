@@ -1,6 +1,6 @@
 # PIDBuddy
 
-This project is a graphical PID controller tuning tool built entirely with Python. It provides an interactive interface to test and adjust Proportional (P), Integral (I), and Derivative (D) gains using an intuitive GUI, making it easier to fine-tune controllers for various applications.
+This project is a graphical PID controller tuning tool built entirely with Python. It provides an interactive interface to test and adjust Proportional (P), Integral (I), and Derivative (D) gains using an intuitive GUI, making it easier to fine-tune controllers for various applications. Do note that this application's executable form is only optimized for MacOS and will not function as expected on Windows. Please execute 'main.py' in order to run the app on Windows.
 
 ---
 
