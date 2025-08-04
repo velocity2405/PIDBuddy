@@ -22,6 +22,7 @@ This project is a graphical PID controller tuning tool built entirely with Pytho
         |-pid.py
         |-readme
         |-main.spec
+        |-LICENSE.txt
         |dist
             |-PIDBuddy.app
             |-main  
