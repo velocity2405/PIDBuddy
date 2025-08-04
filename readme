@@ -1,0 +1,43 @@
+# PIDBuddy
+
+This project is a graphical PID controller tuning tool built entirely with Python. It provides an interactive interface to test and adjust Proportional (P), Integral (I), and Derivative (D) gains using an intuitive GUI, making it easier to fine-tune controllers for various applications.
+
+---
+
+# Features
+
+- Graphical User Interface for real-time tuning
+- Modular architecture (`main.py` for UI, `pid.py` for tuning logic)
+- Visual feedback of system response
+- Uses optimization techniques (`scipy.optimize`) to assist tuning
+- Utilizes MatPlotLib to plot response curve corresponding to optimized constant values
+
+---
+
+# Project Structure
+
+/PIDBuddy
+        |
+        |-main.py
+        |-pid.py
+        |-readme
+        |-main.spec
+        |dist
+            |-PIDBuddy.app
+            |-main  
+
+---
+
+# Get Started
+
+Run the (`PIDBuddy.app`) executable within the dist folder in order to initialize the GUI interface and proceed from there. The (`main.py`) and (`pid.py`) files contain the source code; feel free to play around and experiment as you see fit :D
+
+Note that I have provided my optimized constants in (`pid.py`).
+
+---
+
+# Credits
+
+-> Niteesh Kumar (Project Lead & Developer)
+
+
